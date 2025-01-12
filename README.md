@@ -1,2 +1,2 @@
 # DSAL
-This is for practal repo
+This is for practical repo
