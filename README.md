@@ -1,2 +1,2 @@
-# DSAL
+# DS
 for pratical purpose

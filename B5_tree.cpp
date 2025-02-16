@@ -14,6 +14,7 @@ struct node{
 	struct node* child[10];
 }*root;
 
+
 class Tree{
 	public:
 		Tree(){
@@ -82,7 +83,9 @@ class Tree{
 
 
 int main(){
+
 	Tree obj;
+
 	
 	while(1){
 		cout<<"--- MAIN MENU ---"<<endl;
@@ -95,6 +98,7 @@ int main(){
 
 		switch(ch){
 			case 1:
+
 				obj.create();
 				break;
 			case 2:
@@ -102,6 +106,7 @@ int main(){
 				break;
 			case 3:
 			 	cout<<endl<<"// DONE CODE\n\n";
+
 				exit(0);
 				break;
 			default:
