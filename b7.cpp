@@ -1,6 +1,7 @@
 /*
 Question : Construct an expression tree from the given prefix expression 
 eg. +--a*bc/def and traverse it using postordertraversal(non recursive) and then delete the entire tree.
+
 */
 
 #include<iostream>
@@ -142,4 +143,6 @@ int main(){
                 break;
         }
     }while(ch!=4);
+
 }
+

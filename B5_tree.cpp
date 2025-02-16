@@ -14,9 +14,10 @@ struct node{
 	struct node* child[10];
 }*root;
 
-class GT{
+
+class Tree{
 	public:
-		GT(){
+		Tree(){
 			root = NULL;
 		}
 		string lbel;
@@ -82,7 +83,9 @@ class GT{
 
 
 int main(){
-	GT g;
+
+	Tree obj;
+
 	
 	while(1){
 		cout<<"--- MAIN MENU ---"<<endl;
@@ -95,13 +98,15 @@ int main(){
 
 		switch(ch){
 			case 1:
-				g.create();
+
+				obj.create();
 				break;
 			case 2:
-				g.display(root);
+				obj.display(root);
 				break;
 			case 3:
-			 	cout<<endl<<"// END OF CODE\n\n";
+			 	cout<<endl<<"// DONE CODE\n\n";
+
 				exit(0);
 				break;
 			default:
