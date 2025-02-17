@@ -213,9 +213,3 @@ int main() {
     return 0;
 }
 
-
-Choose an option (0-5):	0
-
-// END OF CODE
-
-*/
