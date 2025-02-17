@@ -8,7 +8,6 @@ Use Binary Search Tree for implementation.
 
 */
 
-// BEGINNING OF CODE
 #include <iostream>
 #include <string>
 using namespace std;
@@ -213,34 +212,7 @@ int main() {
     } while (ch != 0);
     return 0;
 }
-// END OF CODE
 
-/*
-SAMPLE OUTPUT:
-
-Choose an option (0-5):	1
-Key (word) to insert:	testWord
-Value (meaning):	life
-Element insertion successful.
-
-Choose an option (0-5):	1
-Key (word) to insert:	test2
-Value (meaning):	sdfj 
-Element insertion successful.
-
-Choose an option (0-5):	2
-Key (word) to search:	test2
-Value (meaning) is:	sdfj
-
-Choose an option (0-5):	3
-Key (word) to update:	test2
-New value (meaning):	val
-Element updated.
-
-Choose an option (0-5):	5
-Data in ascending order:	
-test2 : val
-testWord : life
 
 Choose an option (0-5):	0
 
